@@ -1,0 +1,201 @@
+
+ @media screen and (min-width: 480px) {
+
+ 	/*responsiveness for the sharp zone*/
+ 	.sharp {
+ 		height: 500px;
+
+ 	}
+ 	.sharp h1, .sharp p {
+ 		text-align: left;
+		margin-left: 50px;
+	}
+	.sharp h1 {
+		padding-top: 20px;
+		font-size: 25px;
+	}
+
+	.sharp p {
+		font-size: 18px
+	}
+
+	/*responsiveness for navigation*/
+	#logo {
+		text-align: center;
+		margin-top: -5px;
+		opacity: 0.8;
+		clear: both;
+	}
+
+	nav li {
+		text-align: center;
+		display: inline-block;
+		padding: 0 5px;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 12px;
+	}
+
+ 	/*responsiveness for the transparent part*/
+ 	.transparent h1 {
+		text-align: center;
+		color: white;
+		font-size: 20px;
+		font-weight: normal;
+		padding-top: 10px;
+	}
+
+	.transparent p {
+		font-size: 10px;
+	}
+ 	/*responsiveness for the options*/
+ 	.arrow {
+ 		height: 190px;
+	}
+
+	#works p {
+		font-size: 10px;
+	}
+
+	/*responsiveness for the blurry section*/
+	.blur {
+		height: 170px;
+	}
+
+	.blur h1 {
+		font-size: 20px;
+		line-height: 1.5em;
+	}
+
+	.blur p {
+		font-size: 18px;
+	}
+
+
+	/*responsiveness for partner's section*/
+	.partners {
+		margin-bottom: 20px;
+	}
+	.partners h1 {
+		font-size: 20px;
+	}
+
+	/*responsiveness for the foot*/
+	.foot {
+		font-size: 11px;
+	}
+
+
+
+}
+
+
+ @media screen and (min-width: 1024px) {
+ 	h1 {
+ 		font-size: 25px;
+ 	}
+ 	p {
+ 		font-size: 18px;
+ 	}
+
+
+ 	/*responsiveness for the sharp zone*/
+ 	.sharp {
+ 		height: 500px;
+ 	}
+ 	.sharp h1, .sharp p {
+ 		text-align: left;
+		margin-left: 150px;
+	}
+
+	#post {
+		margin-top: 15px;
+		color: white;
+		font-size: 0.9em;
+		font-weight: 100;
+		border: 1px solid #008F00;
+		background: #008F00;
+		padding: 8px 30px;
+	}
+
+ 	/*responsiveness for the transparent part*/
+ 	.transparent {
+ 		height: 100px;
+ 	}
+
+ 	.transparent h1 {
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	font-weight: normal;
+	padding-top: 20px;
+	}
+
+	.transparent p {
+		font-size: 14px;
+	}
+ 	/*responsiveness for the options*/
+ 	.arrow {
+ 		height: 290px;
+ 	}
+ 	.arrow h1 {
+ 		font-size: 25px;
+ 	}
+
+ 	#works p {
+		font-size: 16px;
+	}
+
+
+	/*responsiveness for the blurry section*/
+	.blur {
+		height: 250px;	
+	}
+	
+	.blur h1 {
+		padding-top: 70px;
+	}
+
+	.blur p {
+		font-size: 18px;
+	}
+	#start {
+		position: relative;
+		margin: auto;
+		margin-top: 15px;
+		color: white;
+		font-size: 0.9em;
+		font-weight: 100;
+		border: 1px solid #008F00;
+		background: #008F00;
+		padding: 8px 30px;
+	}	
+	/*responsiveness for partner's section*/
+
+	.partners {
+		height: 180px;
+	}
+	
+	.partners h1 {
+		padding: 20px 0px;
+	}
+
+	.partners {
+		margin-bottom: 120px;
+	}
+	#part-logo li {
+		float: left;
+		/*width: 50%;*/
+		width: 20%;
+		margin: 0 2.5%;
+	}
+
+	/*responsiveness for the foot*/
+	.foot {
+		font-size: 11px;
+	}
+
+	.foot li {
+		margin-left: 50px;
+	}
+}
