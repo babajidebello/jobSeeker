@@ -1,4 +1,3 @@
-
  @media screen and (min-width: 480px) {
 
  	/*responsiveness for the sharp zone*/
@@ -11,7 +10,7 @@
 		margin-left: 50px;
 	}
 	.sharp h1 {
-		padding-top: 20px;
+		padding-top: 30px;
 		font-size: 25px;
 	}
 
@@ -20,12 +19,6 @@
 	}
 
 	/*responsiveness for navigation*/
-	#logo {
-		text-align: center;
-		margin-top: -5px;
-		opacity: 0.8;
-		clear: both;
-	}
 
 	nav li {
 		text-align: center;
