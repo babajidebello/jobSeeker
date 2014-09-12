@@ -1,20 +1,20 @@
- @media screen and (min-width: 480px) {
+ @media screen and (max-width: 480px) {
 
  	/*responsiveness for the sharp zone*/
- 	.sharp {
+ 	.section1 {
  		height: 500px;
 
  	}
- 	.sharp h1, .sharp p {
+ 	.section1 h1, .section1 p {
  		text-align: left;
 		margin-left: 50px;
 	}
-	.sharp h1 {
+	.section1 h1 {
 		padding-top: 30px;
 		font-size: 25px;
 	}
 
-	.sharp p {
+	.section1 p {
 		font-size: 18px
 	}
 
@@ -30,7 +30,7 @@
 	}
 
  	/*responsiveness for the transparent part*/
- 	.transparent h1 {
+ 	.section2 h1 {
 		text-align: center;
 		color: white;
 		font-size: 20px;
@@ -38,30 +38,31 @@
 		padding-top: 10px;
 	}
 
-	.transparent p {
-		font-size: 10px;
+	.section2 p {
+		font-size: 12px;
 	}
  	/*responsiveness for the options*/
- 	.arrow {
+ 	.section3 {
  		height: 190px;
 	}
 
-	#works p {
+	#howItworks p {
 		font-size: 10px;
 	}
 
-	/*responsiveness for the blurry section*/
-	.blur {
-		height: 170px;
+	#howItworks p a {
+		color: #80807a;
+		font-size: 12px;
 	}
 
-	.blur h1 {
+	.section4 h1 {
 		font-size: 20px;
+		padding-top: 25px;
 		line-height: 1.5em;
 	}
-
-	.blur p {
-		font-size: 18px;
+	.section4 p {
+		font-size: 14px;
+		line-height: 1.5em;
 	}
 
 
@@ -74,7 +75,7 @@
 	}
 
 	/*responsiveness for the foot*/
-	.foot {
+	.footer {
 		font-size: 11px;
 	}
 
@@ -93,10 +94,10 @@
 
 
  	/*responsiveness for the sharp zone*/
- 	.sharp {
+ 	.section1 {
  		height: 500px;
  	}
- 	.sharp h1, .sharp p {
+ 	.section1 h1, .section1 p {
  		text-align: left;
 		margin-left: 150px;
 	}
@@ -112,11 +113,11 @@
 	}
 
  	/*responsiveness for the transparent part*/
- 	.transparent {
+ 	.section2 {
  		height: 100px;
  	}
 
- 	.transparent h1 {
+ 	.section2 h1 {
 	text-align: center;
 	color: white;
 	font-size: 25px;
@@ -124,32 +125,32 @@
 	padding-top: 20px;
 	}
 
-	.transparent p {
+	.section2 p {
 		font-size: 14px;
 	}
  	/*responsiveness for the options*/
- 	.arrow {
+ 	.section3 {
  		height: 290px;
  	}
- 	.arrow h1 {
+ 	.section3 h1 {
  		font-size: 25px;
  	}
 
- 	#works p {
+ 	#HowItworks p {
 		font-size: 16px;
 	}
 
 
 	/*responsiveness for the blurry section*/
-	.blur {
+	.section4 {
 		height: 250px;	
 	}
 	
-	.blur h1 {
+	.section4 h1 {
 		padding-top: 70px;
 	}
 
-	.blur p {
+	.section4 p {
 		font-size: 18px;
 	}
 	#start {
@@ -178,17 +179,16 @@
 	}
 	#part-logo li {
 		float: left;
-		/*width: 50%;*/
 		width: 20%;
 		margin: 0 2.5%;
 	}
 
 	/*responsiveness for the foot*/
-	.foot {
+	.footer {
 		font-size: 11px;
 	}
 
-	.foot li {
+	.footer li {
 		margin-left: 50px;
 	}
 }

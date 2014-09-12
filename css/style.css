@@ -31,6 +31,11 @@ nav ul {
 	float: right;
 	font-family: sans-serif;
 	font-size: 14px;
+	font-weight: bold;
+}
+
+nav ul a {
+	padding-left: 15px;
 }
 nav li {
 	display: inline-block;
@@ -53,22 +58,19 @@ img {
 }
 
 /*the sharp section*/
-.sharp {
+.section1 {
 	height: 500px ;
 	background-image: url(../img/top.jpg);
 }
-.sharp h1, .sharp p {
-	text-align: center;
+.section1 h1, .section1 p {
+	text-align: left;
 	line-height: 1.5em;
 	clear: left;
 	font-family: sans-serif;
+	margin-left: 30px;
 }
 
-.sharp p {
-	font-size: 14px;
-}
-
-.sharp h1 {
+.section1 h1 {
 	font-size: 25px;
 	padding-top: 50px;
 }
@@ -83,14 +85,14 @@ img {
 	padding: 5px 18px;
 }
 /*the transparent section*/
-.transparent {
+.section2 {
 	position: relative;
 	height: 80px;
 	top: -100px;
 	background-color: rgba(9, 7, 7, .5); ;
 }
 
-.transparent h1 {
+.section2 h1 {
 	text-align: center;
 	color: white;
 	font-size: 14px;
@@ -98,7 +100,7 @@ img {
 	padding-top: 30px;
 }
 
-.transparent p {
+.section2 p {
 	line-height: 2em;
 	font-family: sans-serif;
 	font-size: 8px;
@@ -107,7 +109,7 @@ img {
 }
 /*the how it works section*/
 
-.arrow {
+.section3 {
 	text-align: center;
 	height:160px;
 	background-color: #F6F6F6;
@@ -116,52 +118,56 @@ img {
 
 
 
-.arrow h1 {
+.section3 h1 {
 	text-align: center;
 	padding-top: 20px;
 	font-family: sans-serif;
 	font-size: 20px;
 	color: #80807a;
 }
-#works {
+#howItworks {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-#works li {
+#howItworks li {
 	margin-top: 30px;
 	float:left;
 	width: 14.2857%;
 }
 
-#works p {
+#howItworks p {
 	text-align: center;
 	font-family: sans-serif;
 	font-size: 9px;
 }
 
-#works p a {
+#howItworks p a {
 	color: #80807a;
+	font-size: 12px;
 }
 
-#works p a:hover {
+#howItworks p a:hover {
 	color: #000000;
 }
 
 /*looking for a job blury section*/
-.blur {
+.section4 {
 	font-family: sans-serif;
 	text-align: center;
 	height:180px;
-	background-image: url(../img/road.png);
+	background: url(../img/road.png);
+	
 }
-.blur h1 {
+
+
+.section4 h1 {
 	font-size: 20px;
 	padding-top: 25px;
 	line-height: 1.5em;
 }
-.blur p {
+.section4 p {
 	font-size: 14px;
 	line-height: 1.5em;
 }
@@ -201,14 +207,13 @@ img {
 #part-logo li {
 	float: left;
 	width: 50%;
-	/*width: 20%;*/
-	/*margin: 0 2.5%;*/
+
 }
 
 
 /*footer*/
 
-.foot {
+.footer {
 	position: relative;
 	margin: auto;
 	font-family: sans-serif;
@@ -219,17 +224,17 @@ img {
 	height: 70px;
 }
 
-.foot ul {
+.footer ul {
 	padding-left: 8px;
 }
 
-.foot li {
+.footer li {
 	float: left;
 	padding-top: 40px;
 	padding-left: 10px;
 }
 
-.foot li a {
+.footer li a {
 	color: #eaeae9;
 }
 
