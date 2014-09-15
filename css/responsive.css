@@ -1,194 +1,109 @@
- @media screen and (max-width: 480px) {
+ @media screen and (max-width: 495px) {
 
  	/*responsiveness for the sharp zone*/
+
+ 	h1 {
+ 		font-size: 20px;
+ 	}
+
+ 	p {
+ 		font-size: 17px;
+ 	}
+
+ 	#logo {
+ 		margin: 5px 0 0 120px;
+ 	}
+
  	.section1 {
  		height: 500px;
-
+ 		background-image: url(../img/top1.jpg);
  	}
+
  	.section1 h1, .section1 p {
  		text-align: left;
 		margin-left: 50px;
 	}
 	.section1 h1 {
-		padding-top: 30px;
-		font-size: 25px;
-	}
-
-	.section1 p {
-		font-size: 18px
+		padding-top: 100px;
 	}
 
 	/*responsiveness for navigation*/
 
-	nav li {
+	nav {
+		margin-top: 10px;
 		text-align: center;
-		display: inline-block;
-		padding: 0 5px;
-		font-family: sans-serif;
-		font-weight: bold;
+		display: block;
+		padding: 10px 5px;
 		font-size: 12px;
+		font-family: sans-serif;
+	}
+
+	nav li a:hover {
+		color:  red;
 	}
 
  	/*responsiveness for the transparent part*/
  	.section2 h1 {
-		text-align: center;
-		color: white;
-		font-size: 20px;
-		font-weight: normal;
 		padding-top: 10px;
+		font-size: 20px;
 	}
 
 	.section2 p {
-		font-size: 12px;
-	}
- 	/*responsiveness for the options*/
- 	.section3 {
- 		height: 190px;
+		font-size: 14px;
 	}
 
-	#howItworks p {
-		font-size: 10px;
-	}
+ 	/*responsiveness for the section3*/
+ 	
+ 	.section3 {
+ 		height: 200px;
+ 	}
 
 	#howItworks p a {
 		color: #80807a;
-		font-size: 12px;
+		font-size: 10px; /* the font size for the alternative style is 16px*/
 	}
 
+/*the alternative style of the section3 outlook*/
+/*	.section3 {
+ 		height: 800px;
+	}
+
+	#vanish {
+		width: 0;
+	}
+
+
+	#howItworks li {
+		margin: 10px 30% 0 30%;
+		float:left;
+		width: 40%;
+	}*/
+
 	.section4 h1 {
-		font-size: 20px;
-		padding-top: 25px;
+		padding-top: 20px;
 		line-height: 1.5em;
 	}
 	.section4 p {
-		font-size: 14px;
 		line-height: 1.5em;
 	}
 
 
 	/*responsiveness for partner's section*/
 	.partners {
-		margin-bottom: 20px;
-	}
-	.partners h1 {
-		font-size: 20px;
-	}
-
-	/*responsiveness for the foot*/
-	.footer {
-		font-size: 11px;
-	}
-
-
-
-}
-
-
- @media screen and (min-width: 1024px) {
- 	h1 {
- 		font-size: 25px;
- 	}
- 	p {
- 		font-size: 18px;
- 	}
-
-
- 	/*responsiveness for the sharp zone*/
- 	.section1 {
- 		height: 500px;
- 	}
- 	.section1 h1, .section1 p {
- 		text-align: left;
-		margin-left: 150px;
-	}
-
-	#post {
-		margin-top: 15px;
-		color: white;
-		font-size: 0.9em;
-		font-weight: 100;
-		border: 1px solid #008F00;
-		background: #008F00;
-		padding: 8px 30px;
-	}
-
- 	/*responsiveness for the transparent part*/
- 	.section2 {
- 		height: 100px;
- 	}
-
- 	.section2 h1 {
-	text-align: center;
-	color: white;
-	font-size: 25px;
-	font-weight: normal;
-	padding-top: 20px;
-	}
-
-	.section2 p {
-		font-size: 14px;
-	}
- 	/*responsiveness for the options*/
- 	.section3 {
- 		height: 290px;
- 	}
- 	.section3 h1 {
- 		font-size: 25px;
- 	}
-
- 	#HowItworks p {
-		font-size: 16px;
-	}
-
-
-	/*responsiveness for the blurry section*/
-	.section4 {
-		height: 250px;	
-	}
-	
-	.section4 h1 {
-		padding-top: 70px;
-	}
-
-	.section4 p {
-		font-size: 18px;
-	}
-	#start {
-		position: relative;
-		margin: auto;
-		margin-top: 15px;
-		color: white;
-		font-size: 0.9em;
-		font-weight: 100;
-		border: 1px solid #008F00;
-		background: #008F00;
-		padding: 8px 30px;
+		height: 350px;
 	}	
-	/*responsiveness for partner's section*/
-
-	.partners {
-		height: 180px;
-	}
-	
-	.partners h1 {
-		padding: 20px 0px;
-	}
-
-	.partners {
-		margin-bottom: 120px;
-	}
 	#part-logo li {
 		float: left;
-		width: 20%;
+		width: 45%;
 		margin: 0 2.5%;
 	}
 
+
 	/*responsiveness for the foot*/
 	.footer {
 		font-size: 11px;
 	}
 
-	.footer li {
-		margin-left: 50px;
-	}
+
+
 }

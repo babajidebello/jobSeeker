@@ -1,24 +1,30 @@
+
 a {
 	text-decoration: none;
 }
 
-header {
-	background: white;
-	border-color: green;
-}
+
 
 h1 {
-	font-size: 14px;
+	font-size: 25px;
 	font-weight: bold;
 	font-family: 'Arimo', sans-serif;
+}
+
+p {
+	font-size: 20px;
 }
 
 
 nav {
 	background-color: white;
-	text-align: center;
+	text-align: right;
 	padding: 5px 0;
 	margin: 5px 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 30px;
 
 }
 
@@ -26,22 +32,21 @@ nav a {
 	color: black;
 }
 
-nav ul {
-	margin-right: 30px;
-	float: right;
-	font-family: sans-serif;
-	font-size: 14px;
-	font-weight: bold;
-}
 
 nav ul a {
 	padding-left: 15px;
 }
+
+nav ul a:hover{
+	color: red;
+}
+
 nav li {
 	display: inline-block;
 }
+
 img {
-	max-width: 100%;
+	width: 100%;
 }
 
 #wrapper {
@@ -57,7 +62,7 @@ img {
 	opacity: 0.8;
 }
 
-/*the sharp section*/
+/*the first section*/
 .section1 {
 	height: 500px ;
 	background-image: url(../img/top.jpg);
@@ -66,52 +71,53 @@ img {
 	text-align: left;
 	line-height: 1.5em;
 	clear: left;
-	font-family: sans-serif;
-	margin-left: 30px;
+	margin-left: 100px;
 }
 
 .section1 h1 {
-	font-size: 25px;
 	padding-top: 50px;
 }
 
 #post {
 	margin-top: 3px;
 	color: white;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 100;
 	border: 1px solid #008F00;
 	background: #008F00;
-	padding: 5px 18px;
+	padding: 7px 20px;
 }
+
+
 /*the transparent section*/
+
+
 .section2 {
 	position: relative;
-	height: 80px;
 	top: -100px;
-	background-color: rgba(9, 7, 7, .5); ;
+	background-color: rgba(9, 7, 7, .5);
 }
 
 .section2 h1 {
+	font-size: 30px;
 	text-align: center;
 	color: white;
-	font-size: 14px;
 	font-weight: normal;
 	padding-top: 30px;
 }
 
 .section2 p {
+	font-size: 18px;
 	line-height: 2em;
-	font-family: sans-serif;
-	font-size: 8px;
 	text-align: center;
+	font-weight: lighter;
 	color: white;
 }
 /*the how it works section*/
 
 .section3 {
 	text-align: center;
-	height:160px;
+	height:270px;
 	background-color: #F6F6F6;
 	margin-top: -100px;
 }
@@ -121,8 +127,6 @@ img {
 .section3 h1 {
 	text-align: center;
 	padding-top: 20px;
-	font-family: sans-serif;
-	font-size: 20px;
 	color: #80807a;
 }
 #howItworks {
@@ -132,70 +136,63 @@ img {
 }
 
 #howItworks li {
-	margin-top: 30px;
+	margin: 30px 1.1% 0 1.1%;
 	float:left;
-	width: 14.2857%;
+	width: 12%;
 }
 
 #howItworks p {
 	text-align: center;
 	font-family: sans-serif;
-	font-size: 9px;
 }
 
 #howItworks p a {
 	color: #80807a;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 #howItworks p a:hover {
 	color: #000000;
 }
 
-/*looking for a job blury section*/
+/*looking for a job section*/
 .section4 {
-	font-family: sans-serif;
 	text-align: center;
-	height:180px;
+	height:200px;
 	background: url(../img/road.png);
 	
 }
 
 
 .section4 h1 {
-	font-size: 20px;
 	padding-top: 25px;
 	line-height: 1.5em;
 }
 .section4 p {
-	font-size: 14px;
 	line-height: 1.5em;
 }
 
-#start{
-	position: relative;
-	margin: auto;
+
+#start {
 	margin-top: 3px;
 	color: white;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 100;
 	border: 1px solid #008F00;
 	background: #008F00;
-	padding: 5px 18px;
+	padding: 7px 20px;
 }
-
 
 /*partner's section*/
 .partners {
 	text-align: center;
-	height:350px;
+	height:300px;
 	background-color: white;
 }
 
 .partners h1 {
-	padding: 10px 0;
+	padding: 30px 0;
 	color: #80807a;
-	font-size: 20px;
 }
 
 #part-logo {
@@ -206,8 +203,8 @@ img {
 
 #part-logo li {
 	float: left;
-	width: 50%;
-
+	width: 20%;
+	margin: 0 2.5%;
 }
 
 
@@ -217,7 +214,7 @@ img {
 	position: relative;
 	margin: auto;
 	font-family: sans-serif;
-	font-size: 8px;
+	font-size: 11px;
 	border-top: 2px solid #008F00;
 	background-color: #535354;
 	width: 100%;
